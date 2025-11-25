@@ -1,0 +1,80 @@
+# Data and large files
+data/
+*.pt
+*.pb
+*.onnx
+*.engine
+*.tflite
+*.bin
+*.tar.gz
+*.zip
+
+# Results and outputs
+results/
+*.mp4
+*.avi
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Docker volumes
+docker-volumes/
+
+# Environment files
+.env
+.venv/
+env/
+ENV/
+
+# Python virtual environments
+venv/
+env/
+ENV/
+
+# Cache directories
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Node modules (if any)
+node_modules/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Testing artifacts
+.coverage
+htmlcov/
+.tox/
+
+# Large model files
+models/*.pb
+models/*.pt
+models/*.onnx
+
+# Keep only this structure
+!yolov5/yolov5s.pt
